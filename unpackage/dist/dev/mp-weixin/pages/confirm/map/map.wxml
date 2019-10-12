@@ -1,0 +1,1 @@
+<view class="map_content"><block wx:for="{{pickup_img}}" wx:for-item="item" wx:for-index="index" wx:key="index"><image src="{{item.widthImg}}" mode="widthFix"></image></block></view>

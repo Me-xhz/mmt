@@ -1,0 +1,1 @@
+<view><view name="wxParse"><block wx:for="{{wxParseData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><weixin-parse0 vue-id="{{'1-'+index}}" item="{{item}}" bind:__l="__l"></weixin-parse0></block></block></view></view>

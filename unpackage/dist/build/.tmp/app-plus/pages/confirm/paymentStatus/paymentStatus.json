@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "envelopes": "/components/envelopes/envelopes",
+    "goodlist": "/components/goodList/goodList"
+  }
+}

@@ -1,0 +1,1 @@
+<view><hide-btn vue-id="1" bind:__l="__l"></hide-btn><form report-submit="true" data-event-opts="{{[['submit',[['pushFormSubmit',['$event']]]]]}}" bindsubmit="__e"><view class="btn-area"><button style="{{(miniFollowBtn.style)}}" plain="true" formType="submit">{{miniFollowBtn.name}}</button></view></form></view>

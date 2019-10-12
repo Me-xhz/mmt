@@ -1,0 +1,38 @@
+/* components/countDown/countDown.wxss */
+.countDown_wrap{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22rpx;
+  text-align: center;
+}
+/* .countDown_wrap .item{
+  background-color: #813F00;
+  border-radius:8rpx;
+  display: flex;
+  min-width: 44rpx;
+  padding: 0 6rpx;
+  box-sizing: border-box;
+  height:36rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  font-weight: 600;
+  color:#fff;
+  margin: 0 8rpx;
+}
+.countDown_wrap .doc{
+  font-size: 24rpx;
+  text-align: center;
+  color: #555;
+} */
+

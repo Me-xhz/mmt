@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "configuremodel": "/pages/index/configureModel/configureModel"
+  }
+}

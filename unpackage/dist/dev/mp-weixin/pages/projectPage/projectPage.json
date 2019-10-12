@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "good-list": "/components/goodList/goodList",
+    "loading-bottom": "/components/loadingBottom/loadingBottom"
+  }
+}

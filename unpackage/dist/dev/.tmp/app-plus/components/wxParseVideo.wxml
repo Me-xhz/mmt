@@ -1,0 +1,1 @@
+<view class="{{[item.classStr+' wxParse-'+item.tag]}}" style="{{(item.styleStr)}}"><video class="{{[item.classStr+' wxParse-'+item.tag+'-video']}}" src="{{item.attr.src}}"></video></view>

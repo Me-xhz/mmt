@@ -1,0 +1,34 @@
+/* components/subject/subject.wxss */
+.row{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mb6{
+  margin-bottom: 6rpx;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.pic1{
+  width: 348rpx;
+  height: 420rpx;
+  background-color: #000;
+}
+.pic2{
+  width: 348rpx;
+  height: 208rpx;
+  background-color: #000;
+}
+.pic3{
+  width: 100%;
+  height: 232rpx;
+  background-color: #000;
+}
+

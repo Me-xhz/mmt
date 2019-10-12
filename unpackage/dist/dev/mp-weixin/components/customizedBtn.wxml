@@ -1,0 +1,1 @@
+<view><form report-submit="true" data-event-opts="{{[['submit',[['pushFormSubmit',['$event']]]]]}}" bindsubmit="__e"><view class="btn-area"><button style="{{(btn_style.style)}}" plain="true" formType="submit">{{btn_style.name}}</button></view></form><hide-btn vue-id="1" bind:__l="__l"></hide-btn></view>

@@ -1,0 +1,1 @@
+<view><block wx:for="{{hideBtnData.length}}" wx:for-item="item" wx:for-index="index" wx:key="index"><form report-submit="true" data-event-opts="{{[['submit',[['hidepushFormSubmit',['$event']]]]]}}" bindsubmit="__e"><view class="btn-area"><button style="{{(hideBtnData.length[index])}}" plain="true" formType="submit"></button></view></form></block></view>

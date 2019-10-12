@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "page-bottom-logo2": "/components/pageBottomLogo2/pageBottomLogo2",
+    "loading": "/components/loading/loading",
+    "team-list": "/components/teamList/teamList",
+    "navbar": "/components/navBar/navBar"
+  }
+}

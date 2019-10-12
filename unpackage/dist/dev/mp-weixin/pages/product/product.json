@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "team-list": "/components/teamList/teamList",
+    "navbar": "/components/navBar/navBar"
+  }
+}

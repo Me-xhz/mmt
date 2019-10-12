@@ -1,0 +1,15 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "backgroundColor": "#ffe150",
+  "backgroundColorBottom": "#FFFFFF",
+  "usingComponents": {
+    "count-down": "/components/countDown/countDown",
+    "good-list": "/components/goodList/goodList",
+    "subject": "/components/subject/subject",
+    "configuremodel": "/pages/index/configureModel/configureModel",
+    "no_warehouse": "/components/no_warehouse/no_warehouse",
+    "pickupgoods": "/components/pickUpActivity/pickUpActivity",
+    "loadingbottom": "/components/loadingBottom/loadingBottom"
+  }
+}

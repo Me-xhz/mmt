@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/no_warehouse/no_warehouse"],{"2f07":function(t,e,n){},"6de5":function(t,e,n){"use strict";n.r(e);var i=n("920e"),a=n("9468");for(var c in a)"default"!==c&&function(t){n.d(e,t,function(){return a[t]})}(c);n("7652");var o=n("2877"),u=Object(o["a"])(a["default"],i["a"],i["b"],!1,null,null,null);e["default"]=u.exports},7652:function(t,e,n){"use strict";var i=n("2f07"),a=n.n(i);a.a},"920e":function(t,e,n){"use strict";var i=function(){var t=this,e=t.$createElement;t._self._c},a=[];n.d(e,"a",function(){return i}),n.d(e,"b",function(){return a})},9468:function(t,e,n){"use strict";n.r(e);var i=n("c004"),a=n.n(i);for(var c in i)"default"!==c&&function(t){n.d(e,t,function(){return i[t]})}(c);e["default"]=a.a},c004:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i=n("28c1"),a={data:function(){return{iconURL:getApp().globalData.dataBase.iconURL,navBarHeight:getApp().globalData.navBarHeight,check_city:!1,observers:{city:function(t,e){if(t!=e){var n=i.getStorageSync("city"),a=i.getStorageSync("getpickup");(n.is_pick_up&&1===n.is_pick_up||a.is_pick_up&&1===a.is_pick_up)&&this.setData({check_city:!0})}}}}},components:{},props:{city:{type:Object,value:{}},isAuthorization:{type:Boolean,value:!1}},methods:{openSet:function(){var t=this;wx.openSetting({success:function(e){i.getSetting(),t.$emit("openevent",{isAuthorization:e.authSetting["scope.userLocation"]})},fail:function(t){}})},setData:function(t){var e=this,n=[];Object.keys(t).forEach(function(i){n=i.split("."),t[i],e.$data,n.forEach(function(n,a){e[i]=t[i]})})}}};e.default=a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/no_warehouse/no_warehouse-create-component',
+    {
+        'components/no_warehouse/no_warehouse-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("6de5"))
+        })
+    },
+    [['components/no_warehouse/no_warehouse-create-component']]
+]);                

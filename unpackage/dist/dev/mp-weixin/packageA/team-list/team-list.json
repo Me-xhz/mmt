@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "team-list": "/components/teamList/teamList",
+    "countdown": "/components/countDown/countDown"
+  }
+}

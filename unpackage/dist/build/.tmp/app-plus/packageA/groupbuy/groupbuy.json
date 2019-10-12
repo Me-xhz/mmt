@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "loading": "/components/loading/loading",
+    "team-list": "/components/teamList/teamList"
+  }
+}

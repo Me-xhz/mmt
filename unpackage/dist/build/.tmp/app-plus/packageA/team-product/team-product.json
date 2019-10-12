@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "loading": "/components/loading/loading",
+    "team-list": "/components/teamList/teamList",
+    "navbar": "/components/navBar/navBar",
+    "weixin-parse": "/wxParse/wxParse"
+  }
+}

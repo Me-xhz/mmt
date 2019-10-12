@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "loadingbottom": "/components/loadingBottom/loadingBottom"
+  }
+}

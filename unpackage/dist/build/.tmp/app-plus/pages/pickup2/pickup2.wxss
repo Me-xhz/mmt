@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* 无数据 */
+.no_data {
+  margin-top: 150rpx;
+  text-align: center;
+}
+.no_data .text {
+  font-size: 32rpx;
+  color: #555;
+  font-weight: 600;
+  margin-top: 48rpx;
+}
+.color_theme {
+  /* 主色调 */
+  color: #555;
+}
+.city-guide-box .city-guide-gif {
+  width: 80rpx;
+  height: 80rpx;
+}
+.city-guide-box .city-guide-msg {
+  position: relative;
+}
+.city-guide-box .city-guide-msg-bg {
+  width: 238rpx;
+  height: 54rpx;
+}
+.city-guide-box .city-guide-msg-text {
+  position: absolute;
+  top: 10rpx;
+  left: 20rpx;
+  font-size: 28rpx;
+  color: #555555;
+}
+.uni-container {
+  background-color: #FFFFFF;
+  height: auto;
+}
+.fixedBox {
+  position: fixed;
+  background-color: #fff;
+  z-index: 50;
+}
+.fixedBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 温馨提示*/
+.fixedBox > .tips {
+  height: 100rpx;
+  color: #FFB400;
+  font-size: 28rpx;
+  font-weight: 500;
+  padding: 12rpx 24rpx;
+  background-color: #FFFBE6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* 选择工厂和名称 */
+.select-city-factory {
+  height: 60rpx;
+  line-height: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15rpx 50rpx;
+  background-color: #F3F3F3;
+}
+.cityName {
+  font-size: 26rpx;
+  color: #333;
+  margin-left: 26rpx;
+}
+.icon-btn_sanjiaoxiaojiantoux {
+  font-size: 20rpx;
+  padding-left: 8rpx;
+}
+.icon-img_sousuox {
+  color: #555;
+  margin-left: 10rpx;
+}
+.factoryName {
+  margin-left: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 26rpx;
+}
+/* 竖杆 */
+.select-city-factory .sg {
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  color: #E0E0E0;
+}
+.allFactory_position {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 36rpx;
+  padding: 0 32rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.allFactory_position > .allFactory {
+  color: #746B64;
+  font-size: 28rpx;
+}
+.allFactory_position > .position {
+  color: #908E9A;
+  font-size: 24rpx;
+}
+.cancel {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  right: 2rpx;
+  z-index: 2;
+  text-align: center;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #fff;
+  color: #555;
+  font-size: 26rpx;
+  padding: 0;
+}
+.city-guide-box {
+  position: fixed;
+  top: 228rpx;
+  left: 120rpx;
+}
+.city-guide-box .city-guide-gif {
+    width: 80rpx;
+    height: 80rpx;
+}
+.city-guide-box .city-guide-msg {
+    position: relative;
+}
+.city-guide-box .city-guide-msg .city-guide-img {
+      width: 238rpx;
+      height: 54rpx;
+}
+.city-guide-box .city-guide-msg .city-guide-text {
+      position: absolute;
+      top: 10rpx;
+      left: 20rpx;
+      font-size: 28rpx;
+      color: #555;
+}
+/* 黄色提示 */
+.yellow-tips {
+  position: absolute;
+  top: 160rpx;
+  left: 20rpx;
+  z-index: 99;
+}
+.yellow-tips .bg-img {
+    width: 296rpx;
+    height: 54rpx;
+}
+.yellow-tips .tips-text {
+    position: absolute;
+    top: 8rpx;
+    left: 20rpx;
+    font-size: 24rpx;
+    color: #555;
+}
+.yellow-tips .fork-img {
+    width: 24rpx;
+    height: 24rpx;
+    position: absolute;
+    top: 15rpx;
+    right: 20rpx;
+}
+/* 工厂列表*/
+.factory_list {
+  padding: 254rpx 32rpx 0 32rpx;
+}
+.factory-letter {
+  background-color: #F3F7F8;
+  font-size: 32rpx;
+  color: #46595F;
+  font-weight: bold;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 32rpx;
+}
+.fName {
+  height: 88rpx;
+  line-height: 88rpx;
+  color: #46595F;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #DEE4E4;
+}
+.fName:last-child {
+  border-bottom: none !important;
+}
+/* 字母 */
+.letter {
+  position: fixed;
+  right: 44rpx;
+  top: 334rpx;
+}
+.letter-item {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  color: #888;
+  padding: 2rpx;
+  text-align: center;
+}
+.city-guide-box2 {
+  position: fixed;
+  top: 140rpx;
+  left: 160rpx;
+  z-index: 100;
+}
+

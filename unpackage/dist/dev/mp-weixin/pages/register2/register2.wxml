@@ -1,0 +1,1 @@
+<view><view class="view_block"><image class="dltt" src="{{iconURL+'/img_dltt@2x01.png'}}"></image></view><image class="dlwz" src="{{iconURL+'/dlwz@2x01.png'}}"></image></view>

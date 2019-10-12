@@ -1,0 +1,1 @@
+<web-view src="{{pageUrl}}" data-event-opts="{{[['load',[['pageSuccess',['$event']]]]]}}" bindload="__e"></web-view>

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"map_content wx-image{ width: 100%; }\n",],undefined,{path:"./pages/confirm/map/map.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/confirm/map/map.wxml') } }));

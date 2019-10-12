@@ -1,0 +1,78 @@
+/* components/loadingBottom/loadingBottom.wxss */
+.loading-box{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height:80rpx;
+}
+.loading-box .box-one{
+  border-radius: 50%;
+  height:12rpx;
+  width: 12rpx;
+  margin: 0 10rpx;
+  background-color: #303030;
+  -webkit-animation: box-one-anime 1s ease-in-out 1ms infinite;
+          animation: box-one-anime 1s ease-in-out 1ms infinite;
+  opacity: 0.8;
+}
+@-webkit-keyframes box-one-anime{
+33%{background-color: #aaa}
+66%{background-color: #555}
+100%{background-color: #303030}
+}
+@keyframes box-one-anime{
+33%{background-color: #aaa}
+66%{background-color: #555}
+100%{background-color: #303030}
+}
+.loading-box .box-two{
+  border-radius: 50%;
+  height:12rpx;
+  width: 12rpx;
+  margin: 0 10rpx;
+  background-color: #555555;
+  -webkit-animation: box-two-anime 1s ease-in-out 1ms infinite;
+          animation: box-two-anime 1s ease-in-out 1ms infinite;
+  opacity: 0.8;
+}
+@-webkit-keyframes box-two-anime{
+33%{background-color: #303030}
+66%{background-color: #aaa}
+100%{background-color: #555}
+}
+@keyframes box-two-anime{
+33%{background-color: #303030}
+66%{background-color: #aaa}
+100%{background-color: #555}
+}
+.loading-box .box-three{
+  border-radius: 50%;
+  height:12rpx;
+  width: 12rpx;
+  margin: 0 10rpx;
+  background-color: #aaa;
+  -webkit-animation: box-three-anime 1s ease-in-out 1ms infinite;
+          animation: box-three-anime 1s ease-in-out 1ms infinite;
+  opacity: 0.8;
+}
+@-webkit-keyframes box-three-anime{
+33%{background-color: #555}
+66%{background-color: #303030}
+100%{background-color: #aaa}
+}
+@keyframes box-three-anime{
+33%{background-color: #555}
+66%{background-color: #303030}
+100%{background-color: #aaa}
+}
+

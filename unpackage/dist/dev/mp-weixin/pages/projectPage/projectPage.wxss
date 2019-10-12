@@ -1,0 +1,27 @@
+/* pages/projectPage/projectPage.wxss */
+page{
+  height: 100vh;
+  background: #fff !important;
+}
+.head_box{
+  height: 360rpx;
+  width: 100%;
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.head_pic{
+  height: 360rpx;
+  width: 100%;
+}
+.goodList{
+  padding: 25rpx 6px;
+}
+.page-bottom-logo image {
+	width: 100%;
+}
+.page-bottom-logo2{
+	width: 750rpx;
+	padding: 48rpx 0;
+}
+

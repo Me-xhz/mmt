@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#ffe150",
+  "backgroundColor": "#ffe150",
+  "backgroundColorBottom": "#f2f2f2",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "page-bottom-logo2": "/components/pageBottomLogo2/pageBottomLogo2"
+  }
+}

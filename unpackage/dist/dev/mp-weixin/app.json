@@ -1,0 +1,171 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/product/product",
+    "pages/search/search",
+    "pages/listdetail/listdetail",
+    "pages/pageUrl/pageUrl",
+    "pages/listdetailTemplate/listdetailTemplate",
+    "pages/confirm/confirm",
+    "pages/confirm/selectCoupons/selectCoupons",
+    "pages/confirm/invoice/invoice",
+    "pages/confirm/paymentStatus/paymentStatus",
+    "pages/comment/comment",
+    "pages/activity/activity",
+    "pages/address-edit/address-edit",
+    "pages/flashSale/flashSale",
+    "pages/projectPage/projectPage",
+    "pages/address/address",
+    "pages/address/addressList/addressList",
+    "pages/couponCenter/couponCenter",
+    "pages/sign/sign",
+    "pages/problem/problem",
+    "pages/problem/feedBook/feedBook",
+    "pages/confirm/map/map",
+    "pages/coupon/coupon",
+    "pages/address/addressEdit/addressEdit",
+    "pages/user/money/money",
+    "pages/cashCoupon/cashCoupon",
+    "pages/user/invitation/invitation",
+    "pages/sign/integral/integral",
+    "pages/register/register",
+    "pages/register2/register2",
+    "pages/register3/register3",
+    "pages/recharge/recharge",
+    "pages/recharge/record/record",
+    "pages/newExclusive/newExclusive",
+    "pages/index/configureModelPage/configureModelPage",
+    "pages/pickup/pickup",
+    "pages/pickup/citys/citys",
+    "pages/pickup2/pickup2",
+    "pages/pickup2/citys2/citys2",
+    "components/a/a"
+  ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "user/dingdan",
+        "user/shoucang",
+        "user/detail",
+        "user/application-return",
+        "user/order-return-detail",
+        "user/aftermarket-schedule",
+        "user/my-order-return",
+        "user/returnSQA",
+        "user/order-express",
+        "user/order-review",
+        "user/add-order-review",
+        "logistics/index",
+        "logistics/delivery",
+        "logistics/arrival",
+        "logistics/arrivalOrder",
+        "logistics/orderdetile",
+        "logistics/nodelivery",
+        "select/select",
+        "groupbuy/groupbuy",
+        "bargain/bargain",
+        "mybargain/mybargain",
+        "bargainshare/bargainshare",
+        "takeout-shop/takeout-shop",
+        "takeout-order/takeout-order",
+        "takeout-order/check-takeout-order",
+        "takeout-order/order-detail",
+        "takeout-order/order-back",
+        "team-list/team-list",
+        "team-product/team-product",
+        "takeout-coupon/takeout-coupon",
+        "packet/packet",
+        "logistics/nodelivery_detail"
+      ]
+    },
+    {
+      "root": "packageB",
+      "pages": [
+        "question/question",
+        "rituall/rituall",
+        "address/user-address/user-address",
+        "address/address",
+        "tools/turntable",
+        "topay/topay",
+        "invitation-share/invitation-share",
+        "withdraw/withdraw"
+      ]
+    }
+  ],
+  "window": {
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "买买提",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "custom": false,
+    "backgroundColor": "#fff",
+    "color": "#888",
+    "selectedColor": "#555",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/images/icons/tab_indexoff.png",
+        "selectedIconPath": "./static/images/icons/tab_indexon.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "./static/images/icons/tab_cartoff.png",
+        "selectedIconPath": "./static/images/icons/tab_carton.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "./static/images/icons/tab_myoff.png",
+        "selectedIconPath": "./static/images/icons/tab_myon.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置将用于进行收货地址的确认"
+    }
+  },
+  "usingComponents": {
+    "pick-up-goods": "/components/pickUpActivity/pickUpActivity",
+    "loading": "/components/loading/loading",
+    "loading2": "/components/loading2/loading2",
+    "page-bottom-logo": "/components/pageBottomLogo/pageBottomLogo",
+    "page-bottom-logo2": "/components/pageBottomLogo2/pageBottomLogo2",
+    "notice": "/components/notice/notice",
+    "envelopes": "/components/envelopes/envelopes",
+    "invitation-guide": "/components/invitationGuide/invitationGuide",
+    "navbar": "/components/navBar/navBar",
+    "wxparsevideo": "/components/wxParseVideo",
+    "wxparseimg": "/components/wxParseImg",
+    "wxemojiview": "/components/WxEmojiView",
+    "wxparse0": "/components/wxParse0",
+    "wxparse1": "/components/wxParse1",
+    "wxparse2": "/components/wxParse2",
+    "wxparse3": "/components/wxParse3",
+    "wxparse4": "/components/wxParse4",
+    "wxparse5": "/components/wxParse5",
+    "wxparse6": "/components/wxParse6",
+    "wxparse7": "/components/wxParse7",
+    "wxparse8": "/components/wxParse8",
+    "wxparse9": "/components/wxParse9",
+    "wxparse10": "/components/wxParse10",
+    "wxparse11": "/components/wxParse11",
+    "hidebtn": "/components/hideBtn",
+    "customizedbtn": "/components/customizedBtn",
+    "minisubscribebtn": "/components/miniSubscribeBtn",
+    "minifollowbtn": "/components/miniFollowBtn",
+    "longsubscribebtn": "/components/longSubscribeBtn",
+    "longfollowbtn": "/components/longFollowBtn"
+  },
+  "sitemapLocation": "sitemap26.json"
+}
